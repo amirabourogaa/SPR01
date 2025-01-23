@@ -1,0 +1,31 @@
+:host {
+    --background-color: #ffffff;
+    --default-color: #444444;
+    --heading-color: #111111;
+    --accent-color: #1bbd36;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+  }
+  
+  .modules-section {
+    background-color: var(--background-color);
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+  
+  .card-text {
+    color: var(--default-color);
+  }
+  
+  h2 {
+    color: var(--heading-color);
+  }
+
+  
